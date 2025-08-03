@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;600;700&display=swap");
 @import "tailwindcss";
 
 .hero-container {
@@ -8,8 +8,9 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: 'Poppins', 'sans-serif';
+  font-family: "Poppins", "sans-serif";
 }
+
 .hero-section {
   overflow: hidden;
   width: 100%;
@@ -17,23 +18,25 @@
   align-items: center;
   text-align: center;
 }
+
 .create-event {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 .create-event-btn {
   border: 1px solid #ff6f61;
   color: white;
   border-radius: 10px;
   padding: 10px;
   width: 200px;
-  height:45px;
-  font-size: 1.2rem;
+  height: 45px;
+  font-size: 1rem;
   text-transform: capitalize;
   font-weight: bolder;
-  background-color:#ff6f61;
+  background-color: #ff6f61;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,21 +45,19 @@
   gap: 5px;
   margin-bottom: 4rem;
   margin-top: 1rem;
-  
 }
 
 .create-event-btn:hover {
-  scale: 1.1;
-  transition: all 0.3s ease-in-out;
-  box-shadow: black 2px 5px 5px 0px;
   cursor: pointer;
 }
+
 .hero-content h1 {
   font-size: 35px;
   text-align: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
+
 .hero-header {
   display: flex;
   justify-content: space-between;
@@ -68,14 +69,12 @@
 
 .ybday-btn:hover {
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  scale: 1.1;
 }
-.login{
+
+.login {
   display: flex;
-  justify-content: center;
-  align-items: cneter;
-  
+  justify-content: space-between;
+  align-items: center;
 }
 
 .login-signup-btn {
@@ -83,42 +82,43 @@
   color: #ff6f61;
   border-radius: 10px;
   padding: 5px 10px 5px 10px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-transform: capitalize;
-  font-weight: bolder;
+  font-weight: 550;
   background-color: transparent;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 8px;
 }
+
 .login-signup-btn:hover {
-  scale: 1.1;
-  box-shadow: black 2px 5px 5px 0px;
-  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+
 .hero-content h1 span {
   color: #ff6f61;
   font-weight: bolder;
 }
+
 .hero-content p {
   font-size: 1.2rem;
   margin: 10px;
-  color: #333333c8;
+  color: #333333;
 }
+
 .join-section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
-    font-family: 'Lora', serif;
-} 
+  font-family: "Lora", serif;
+}
 
 .join-link {
-  width: 300px;
+  width: 350px;
   padding: 10px 20px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #333;
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
@@ -127,9 +127,10 @@
   border-bottom-left-radius: 8px;
   outline: none;
 }
+
 .join-btn {
-  padding: 10px 20px;
-  font-size: 1.3rem;
+  padding: 10px 30px;
+  font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
   background-color: #081c3d;
@@ -139,52 +140,59 @@
   border-bottom-right-radius: 8px;
   transition: all 0.3s ease;
 }
-.after-link{
+
+.after-link {
   display: flex;
   justify-content: center;
-align-items: center;
-text-align:center;
-gap:5px
+  align-items: center;
+  text-align: center;
+  gap: 5px;
 }
-.after-link span{
+
+.after-link span {
   font-weight: bold;
 }
-.lines{
-  color:black;
-  width:150px;
-  height:1px;
- background-color:black;
-opacity:0.3
 
+.lines {
+  color: black;
+  width: 150px;
+  height: 1px;
+  background-color: black;
+  opacity: 0.3;
 }
+
 .hero-footer ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   padding: 0;
-  position: absolute;
-  bottom: auto;
+  bottom: 20px;
   left: 0;
   right: 0;
   margin: 0;
   text-transform: capitalize;
+  font-family: "Lora", serif;
 }
+
 .hero-footer li {
-  margin: 0 15px;
+  margin: 0 15px 0;
 }
+
 .hero-footer a {
   text-decoration: none;
   color: #081c3d;
-  font-weight: 600;
+  font-weight: 500;
 }
+
 .hero-footer a:hover {
   color: #ff6f61;
 }
-.hero-footer li:hover {
+
+/* .hero-footer li:hover {
   transition: all 0.3s ease-in-out;
   transform: scale(1.1);
-}
+} */
 
 /*responsive */
 
@@ -192,21 +200,20 @@ opacity:0.3
   .create-event-btn {
     padding: 5px;
     font-size: 0.8rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .hero-content h1 {
     font-size: 1.5rem;
     margin-top: 3rem;
   }
   .login-signup-btn {
-   
     margin-left: 5rem;
-   
   }
-  .login{
- font-size: .9rem;
-  gap:3px;
- padding-right:10px;
+  .login {
+    font-size: 0.9rem;
+    gap: 2px;
+    padding-right: 10px;
+    width: 60px;
   }
   .join-link {
     width: 250px;
@@ -220,20 +227,30 @@ opacity:0.3
   .hero-header {
     align-items: center;
   }
-  .logo{
+  .logo {
     width: 80%;
     height: 100%;
-
   }
   .hero-content h1 {
     font-size: 1.2rem;
+    margin-top: 1rem;
   }
   .hero-footer ul {
-    font-size: 0.7rem;
-    position: static;
-    bottom: auto;
+    font-size: 0.5rem;
+    margin-bottom: 6px;
   }
   .hero-footer li {
-    margin: 0 4px 0 4px;
+    margin: 2px;
+  }
+ .hero-footer a{
+    font-weight: bolder;
+
+ }
+  .lines {
+    color: black;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    opacity: 0.3;
   }
 }
