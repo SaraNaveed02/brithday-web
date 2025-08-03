@@ -9,7 +9,7 @@ import ballon5 from "../../public/balloons/5.png";
 import ballon6 from "../../public/balloons/7.png";
 import ballon7 from "../../public/balloons/6.png";
 import "../styles/App.css";
-import BalloonSVG from "../assets/ylogo.svg";
+import BalloonSVG from "../assets/ybdaylogo.svg";
 import UserAvatar from "../modules/login";
 import "../styles/ballons.css";
 
@@ -51,7 +51,7 @@ const HeroSection = ({user}) => {
               ) : (
                 <Link to="/login" className="login-signup-btn">
                   <button className="login " >
-                    <img src={profile} alt="profile" height={20} width={30} />
+                    <img src={profile} alt="profile" height={20} width={20} />
                     Login  
                   </button>
                 </Link>
