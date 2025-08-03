@@ -51,7 +51,7 @@ const HeroSection = ({user}) => {
               ) : (
                 <Link to="/login" className="login-signup-btn">
                   <button className="login " >
-                    <img src={profile} alt="profile" height={20} width={20} />
+                    <img src={profile} alt="profile" height={20} width={30} />
                     Login  
                   </button>
                 </Link>
